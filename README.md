@@ -2,5 +2,5 @@
 
 ------
 
-#### App List
+#### Apps List
 1. Blog
