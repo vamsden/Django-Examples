@@ -33,5 +33,12 @@ class PostAdmin(admin.ModelAdmin):
     # Adds list ordering by status and publish fields
     ordering = ['status', 'publish']
 
+    # admin.site.site_header = 'My admin'
+    # radio_fields = {'status': admin.VERTICAL}
 
 admin.site.register(Post, PostAdmin)
+admin.site.site_header = "My Admin"
+admin.site.site_title = "My Site"
+
+
+""" Check out class AdminSite """
