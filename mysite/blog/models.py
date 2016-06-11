@@ -8,6 +8,7 @@ from django.contrib.auth.models import User
 class PublishedManager(models.Manager):
     """
     Custom Model Managers
+    eg: Post.published.filter(title__startswith='Who')
     """
     def get_queryset(self):
         return super(PublishedManager,
